@@ -84,6 +84,8 @@ section .title::after{
     border-radius: 6px;
     padding: 5px;
     margin-top: 10px;
+    position: absolute;
+    bottom: 25px;
 }
 /* Navbar Styling */
 
@@ -392,6 +394,8 @@ section .title::after{
     border-radius: 6px;
     padding: 25px 35px;
     transition: all .3s ease;
+    min-height: 28rem;
+    position: relative;
 }
 
 .projects .carousel .card:hover {
