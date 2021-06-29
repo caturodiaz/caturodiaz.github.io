@@ -75,6 +75,7 @@ $(document).ready(function(){
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
+        autoplay: true,
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
         responsive: {
@@ -87,7 +88,7 @@ $(document).ready(function(){
                 nav: false
             },
             1000:{
-                items: 3,
+                items: 4,
                 nav: false
             }
         }
@@ -96,7 +97,8 @@ $(document).ready(function(){
     $('.skills-carousel').owlCarousel({
         margin: 20,
         loop: true,
-        autoplayTimeOut: 2000,
+        autoplay: true,
+        autoplayTimeOut: 1000,
         autoplayHoverPause: true,
         responsive: {
             0:{
