@@ -83,11 +83,15 @@ $(document).ready(function(){
                 items: 1,
                 nav: false
             },
-            600:{
+            800:{
                 items: 2,
                 nav: false
             },
             1000:{
+                item: 3,
+                nav: false
+            },
+            1250:{
                 items: 4,
                 nav: false
             }
@@ -102,6 +106,10 @@ $(document).ready(function(){
         autoplayHoverPause: true,
         responsive: {
             0:{
+                items: 1,
+                nav: false
+            },
+            370:{
                 items: 2,
                 nav: false
             },
