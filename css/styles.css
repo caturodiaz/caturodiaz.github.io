@@ -249,7 +249,7 @@ section .title::after{
 .about .about-content .left img{
     height: auto;
     width: 500px;
-    object-fit: cover;
+    object-fit:fill;
     border-radius: 6px;
 }
 
