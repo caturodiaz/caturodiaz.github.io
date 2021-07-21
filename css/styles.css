@@ -78,14 +78,28 @@ section .title::after{
     justify-content: space-between;
 }
 
+.project-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 25px;
+}
+
 .button-projects {
     color: var(--blanco);
     background-color: var(--secondaryColor);
     border-radius: 6px;
     padding: 5px;
     margin-top: 10px;
-    position: absolute;
-    bottom: 25px;
+}
+
+.github-link {
+    margin-top: 0.7rem;
+    color: #d804d8;
+}
+
+.github-link:hover{
+    color: #f806f8;
 }
 /* Navbar Styling */
 
@@ -394,12 +408,12 @@ section .title::after{
     border-radius: 6px;
     padding: 25px 35px;
     transition: all .3s ease;
-    min-height: 28rem;
+    min-height: 30rem;
     position: relative;
 }
 
 .projects .carousel .card:hover {
-    background-color: var(--primaryColor);
+    transform: scale(0.95);
 }
 
 .projects .carousel .card .box {
