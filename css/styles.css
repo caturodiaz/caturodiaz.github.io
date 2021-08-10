@@ -587,6 +587,35 @@ section .title::after{
     display: none;
 }
 
+.social-media {
+    margin-top: 3rem;
+}
+
+.social-media .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links a {
+    margin-right: 1.5rem;
+}
+
+.links a:last-child {
+    margin-right: 0;
+}
+
+.links a i {
+    font-size: 45px;
+    color: var(--primaryColor);
+}
+
 /* Footer */
 
 footer {
