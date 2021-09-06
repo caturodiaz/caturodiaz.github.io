@@ -57,14 +57,14 @@ $(document).ready(function(){
 
     // Typing Animation
     var typed = new Typed(".typing", {
-        strings: ["Web Designer", "FullStack Developer"],
+        strings: ["Web Designer", "Frontend Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Web Designer", "FullStack Developer"],
+        strings: ["Web Designer", "Frontend Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
