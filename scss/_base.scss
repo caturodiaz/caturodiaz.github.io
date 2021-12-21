@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root {
+    --mainFont: 'Poppins', sans-serif;
+    --secondaryFont: 'Ubuntu', sans-serif;
+    --primaryColor: #9c029c;
+    --secondaryColor: #660166;
+    --blanco: #fff;
+}
+
+/* Globales */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth!important;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+.about, .services, .skills, .projects, .contact, footer {
+    font-family: var(--mainFont);
+}
+
+section {
+    padding: 100px 0;
+}
+
+section { 
+    .title {
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+        font-family: var(--secondaryFont);
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            left: 50%;
+            width: 180px;
+            height: 3px;
+            background-color: #111;
+            transform: translateX(-50%);
+        }
+        &::after {
+            position: absolute;
+            bottom: -12px;
+            left: 50%;
+            font-size: 20px;
+            color: var(--primaryColor);
+            padding: 5px;
+            background-color: #fff;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+
+.about-content,
+.skills-content,
+.contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 25px;
+}
+
+.button-projects {
+    color: var(--blanco);
+    background-color: var(--secondaryColor);
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.github-link {
+    margin-top: 0.7rem;
+    color: #d804d8;
+    &:hover {
+        color: #f806f8;
+    }
+}

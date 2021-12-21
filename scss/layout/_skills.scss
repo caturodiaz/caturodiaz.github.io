@@ -1,0 +1,28 @@
+/* Skills Section Styling */
+
+.skills {
+    .title::after {
+        background-color: var(--blanco);
+        content: 'what i know';
+    }
+    .skills-carousel .card {
+        background-color: #e2e2e2;
+        border-radius: 6px;
+        padding: 25px 35px;
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            p {
+                margin-top: 10px;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+        img {
+            height: 150px;
+            width: 150px;
+        }
+    }
+}

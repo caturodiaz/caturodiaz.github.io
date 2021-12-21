@@ -1,0 +1,61 @@
+/* Services Sectiong Styling */
+
+.services, .projects {
+    color: var(--blanco);
+    background-color: #111;
+}
+
+.services .title::before,
+.projects .title::before {
+    background-color: var(--blanco);
+}
+
+.services .title::after,
+.projects .title::after{
+    background-color: #111;
+    content: 'what i provide';
+}
+
+.services .serv-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .serv-content .card {
+    width: calc(33% - 20px);
+    background-color: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.services .serv-content .card:hover {
+    background-color: var(--primaryColor);
+}
+.services .serv-content .card .box{
+    transition: all .3s ease;
+}
+
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+
+.services .serv-content .card i{
+    font-size: 50px;
+    color: var(--primaryColor);
+    transition: all .3s ease;
+}
+
+.services .serv-content .card:hover i {
+    color: #fff;
+}
+
+.services .serv-content .card .serv-text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}

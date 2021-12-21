@@ -1,0 +1,49 @@
+/* About Section  Styling*/
+
+.about {
+    .title::after{
+        content: 'who i am';
+    }
+}
+
+.about-content {
+    .left {
+        width: 45%;
+        img {
+            height: auto;
+            width: 500px;
+            object-fit:fill;
+            border-radius: 6px;
+        }
+    }
+    .right {
+        width: 55%;
+        .text {
+            font-weight: 600;
+            margin-bottom: 10px;
+            font-size: 25px;
+            span {
+                color: var(--primaryColor);
+            }
+        }
+        p {
+            text-align: justify;
+        }  
+        a {  
+            display: inline-block;
+            background-color: var(--primaryColor);
+            color: var(--blanco);
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px 30px ;
+            border-radius: 6px;
+            margin-top: 20px;
+            border: 2px solid var(--primaryColor);
+            transition: all 0.3 ease;
+            &:hover {
+                color: var(--primaryColor);
+                background: none;
+            }
+        } 
+    }
+}
