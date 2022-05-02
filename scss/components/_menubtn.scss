@@ -5,6 +5,9 @@
     font-size: 23px;
     cursor: pointer;
     display: none;
+    @media (max-width: 946px) {
+        display: block;
+    }
 }
 
 .scroll-up-btn{

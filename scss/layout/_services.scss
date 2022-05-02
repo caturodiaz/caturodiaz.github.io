@@ -24,13 +24,16 @@
 }
 
 .services .serv-content .card {
-    width: calc(33% - 20px);
+   
     background-color: #222;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
     cursor: pointer;
     transition: all .3s ease;
+    @media screen and (max-width: 690px) {
+        width: 70%!important;
+    }
 }
 
 .services .serv-content .card:hover {
